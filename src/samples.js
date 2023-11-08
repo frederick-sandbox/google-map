@@ -10,6 +10,7 @@ const features = [
     id: "6f8abd92-d0d9-4395-9d62-425ccb656f00",
     name: "Text",
     note: "Sample Text",
+    type: "text",
     styles: {
       color: "black",
       background: {
@@ -25,6 +26,7 @@ const features = [
   {
     id: "4b8d9c80-7755-4c9e-b96b-5bdc65d19df5",
     name: "Line",
+    type: "line",
     styles: {
       stroke: {
         color: "yellow",
@@ -41,6 +43,7 @@ const features = [
   {
     id: "b6c97aea-a150-4f32-aabf-dc8b3ccff101",
     name: "Area",
+    type: "area",
     styles: {
       stroke: {
         color: "yellow",
